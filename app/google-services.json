@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "557629186261",
+    "firebase_url": "https://smart-learn-cds-afcat-aptitude.firebaseio.com",
+    "project_id": "smart-learn-cds-afcat-aptitude",
+    "storage_bucket": "smart-learn-cds-afcat-aptitude.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557629186261:android:35a99c70346f8ade6bc25c",
+        "android_client_info": {
+          "package_name": "com.example.smartlearncdsafcataptitude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557629186261-lfbk4takk84i9stjrd8dptnlf2mb20u1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartlearncdsafcataptitude",
+            "certificate_hash": "bbd5f2b249bce57a8adef28324cca2405372985d"
+          }
+        },
+        {
+          "client_id": "557629186261-j0r173s2vhnm79lg6jf6jn33pvu3mbai.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJTVwvvNZ629BJyI4YRtWRorWJ8r_Rh_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557629186261-j0r173s2vhnm79lg6jf6jn33pvu3mbai.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

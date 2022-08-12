@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Upload_Profile"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/ivImage3"
+                android:layout_width="match_parent"
+                android:layout_height="496dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/registraionbg" />
+
+            <Button
+                android:layout_width="135dp"
+                android:layout_height="36dp"
+                android:layout_below="@+id/ivImage3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="13dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="18dp"
+
+                android:onClick="btnSelectImage"
+                android:text="Browse Image"
+                android:textAlignment="gravity"
+                android:textColor="#171212"
+                app:layout_constraintHorizontal_bias="0.8" />
+
+            <EditText
+                android:id="@+id/dtxtUsername"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dtxtname"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="14dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtfoodhabits"
+                android:layout_width="376dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1151dp"
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtDivorcee"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:visibility="gone"
+                android:layout_marginTop="1326dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtDisability"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1270dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtspecatacles"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1210dp"
+                android:layout_marginEnd="15dp"
+                android:visibility="gone"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtbloodgroup"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="1096dp"
+                android:layout_marginEnd="215dp"
+                android:background="@drawable/btn"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtPhone"
+                android:layout_width="176dp"
+                android:layout_height="56dp"
+                android:layout_below="@id/dtxtUsername"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="673dp"
+                android:layout_marginEnd="11dp"
+                android:visibility="gone"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtbirthplace"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1096dp"
+                android:layout_marginEnd="22dp"
+                android:visibility="gone"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtbirthtime"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="1037dp"
+                android:layout_marginEnd="18dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:visibility="gone"
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtbirthdate"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="1037dp"
+                android:layout_marginEnd="206dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:hint=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtcomplexion"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dtxtHeight"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="983dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtexpectations"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="2429dp"
+                android:layout_marginEnd="14dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp"
+
+                />
+
+            <RadioGroup
+                android:id="@+id/dtxtgender"
+                android:layout_width="371dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="876dp"
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+
+                android:background="@drawable/btn"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="34dp"
+                    android:layout_marginStart="10dp"
+                    android:paddingBottom="2dp"
+                    android:text=""
+                    android:visibility="gone"
+                    android:textColor="#DA031C"
+                    android:textSize="19sp">
+
+                </TextView>
+
+
+                <RadioButton
+                    android:id="@+id/radio_pirates"
+                    android:layout_width="94dp"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/text_description"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginStart="30dp"
+                    android:layout_marginTop="13dp"
+                    android:visibility="gone"
+                    android:layout_marginEnd="30dp"
+                    android:onClick="onRadioButtonClicked"
+                    android:text=""
+                    android:textColor="#DA031C"
+                    android:textSize="19sp" />
+
+                <RadioButton
+                    android:id="@+id/radio_ninjas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="27dp"
+                    android:layout_below="@+id/text_description"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="13dp"
+                    android:layout_marginEnd="2dp"
+                    android:visibility="gone"
+                    android:onClick="onRadioButtonClicked"
+                    android:text=""
+                    android:textColor="#DA031C"
+                    android:textSize="19sp" />
+
+            </RadioGroup>
+
+            <EditText
+                android:id="@+id/dtxtaddress"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="735dp"
+                android:layout_marginEnd="16dp"
+                android:visibility="gone"
+                android:background="@drawable/btn"
+                android:inputType="textMultiLine"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtHeight"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="927dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:visibility="gone"
+                android:text="Height:"
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtMobile"
+                android:layout_width="186dp"
+                android:layout_height="55dp"
+                android:layout_below="@id/dtxtUsername"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="28dp"
+                android:visibility="gone"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="197dp"
+                android:background="@drawable/btn"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dMatch_patrika"
+                android:layout_width="375dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="2253dp"
+
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtoccupation"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1560dp"
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtcurrentcity"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1617dp"
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtincome"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1678dp"
+                android:visibility="gone"
+                android:layout_marginEnd="216dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtownhome"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1678dp"
+                android:layout_marginEnd="15dp"
+                android:visibility="gone"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtqualification"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1504dp"
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:hint=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxthobbies"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1449dp"
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtnaddi"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="2138dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtzodiacsign"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1907dp"
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtshakha"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1850dp"
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtgota"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1793dp"
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtgan"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="2082dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:visibility="gone"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtcharan"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="2025dp"
+                android:layout_marginEnd="15dp"
+                android:visibility="gone"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtcaste"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1387dp"
+                android:layout_marginEnd="15dp"
+                android:visibility="gone"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtnakshatra"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1966dp"
+                android:layout_marginEnd="15dp"
+                android:visibility="gone"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dcaste"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="1735dp"
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtmangal"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="26dp"
+                android:layout_marginTop="2197dp"
+
+                android:visibility="gone"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtoccupation_of_family"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+
+                android:layout_marginTop="606dp"
+
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text="Price"
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtDescription"
+
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="12dp"
+                android:visibility="gone"
+                android:layout_marginTop="610dp"
+                android:layout_marginEnd="9dp"
+                android:background="@drawable/btn"
+                android:padding="10dp"
+                android:text=""
+                android:textColor="#DA031C"
+                android:textSize="19sp" />
+
+            <EditText
+                android:id="@+id/dtxtname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ivImage3"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/btn"
+                android:hint="Name:"
+
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textColor="#DA0323"
+                android:textColorHint="@color/colorAccent"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="47dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="158dp"
+
+                android:layout_marginTop="679dp"
+                android:layout_marginEnd="165dp"
+                android:background="@drawable/btn"
+                android:onClick="btnUploadProfiles"
+                android:text="Upload"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
